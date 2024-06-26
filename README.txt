@@ -193,6 +193,8 @@ $ kubectl get nodes
      $ argocd cluster add i-08b9d0ff0409f48e7@virtualtechbox-cluster.ap-south-1.eksctl.io --name virtualtechbox-eks-cluster
 
 13 ) $ kubectl get svc
+
+_____________________________follow  this repo for manifest file**************https://github.com/SriYeshwanthE/CI-CD_mark1_manifest.git*******______________________________
 ============================================================= Cleanup =============================================================
 $ kubectl get all
 $ kubectl delete deployment.apps/virtualtechbox-regapp       //it will delete the deployment
